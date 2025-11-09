@@ -1,6 +1,7 @@
 import React from "react";
 import { Code, Layout, Text } from "@stellar/design-system";
 import { GuessTheNumber } from "../components/GuessTheNumber";
+import { SeedIncubator } from "../components/SeedIncubator";
 
 const Home: React.FC = () => (
   <Layout.Content>
@@ -57,6 +58,12 @@ const Home: React.FC = () => (
         &lt;GuessTheNumber /&gt;
       </Text>
       <GuessTheNumber />
+
+      <Text as="h2" size="lg">
+        &lt;SeedIncubator /&gt;
+      </Text>
+      <SeedIncubator />
+
       <Text as="h2" size="lg">
         Interact with wallets
       </Text>

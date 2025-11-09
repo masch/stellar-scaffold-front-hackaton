@@ -1107,6 +1107,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "seed-incubator"
+version = "0.0.1"
+dependencies = [
+ "soroban-sdk",
+ "stellar-registry",
+ "stellar-xdr",
+]
+
+[[package]]
 name = "semver"
 version = "1.0.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
