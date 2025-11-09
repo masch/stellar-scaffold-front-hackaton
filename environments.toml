@@ -13,6 +13,15 @@ fungible_allowlist_example = { client = true, constructor_args = "--admin me --m
 nft_enumerable_example = { client = true, constructor_args = "--owner me" }
 
 # Rather than in one list, TOML allows specifying contracts in their own "sections"
+[development.contracts.seed_incubator]
+client = true
+
+constructor_args = """
+--admin me
+"""
+
+
+# Rather than in one list, TOML allows specifying contracts in their own "sections"
 [development.contracts.guess_the_number]
 # Generate a contract client (NPM package) for this contract. This means:
 #   - compile (build) the contract source to Wasm
